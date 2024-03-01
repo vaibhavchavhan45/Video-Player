@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>VC VIDEO PLAYER</h1>
+    </header>
+
+    <section>
+        <video id="video" src="video.mp4">
+        </video>
+    </section>
+
+    <footer>
+        <button id="upload-btn" onchange="video_upload()">
+            Upload Video
+            <input type="file" accept=".mp4" id="upload-video">
+        </button>
+        <button class="play-pause" onclick="video_play()">Play</button>
+        <button class="play-pause" onclick="video_pause()">Pause</button>
+    </footer>
+     
+    
+</body>
+</html>
